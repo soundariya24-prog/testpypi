@@ -29,5 +29,5 @@ jobs:
         run: |
           python -m venv venv
           source venv/bin/activate
-          pip install dist/*.whl
-          python -c "from my_lib.math_utils import sub, add; print('addition result =', add(5,6))"
+          pip install dist/*.whl 
+          python -c "python -c "from my_lib.math_utils import mul; print('multiplication result =', mul(5,6))"
